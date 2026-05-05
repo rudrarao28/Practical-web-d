@@ -1,7 +1,7 @@
 const button = document.getElementById("likeButton");
 
 button.addEventListener("click", function () {
-  alert("You liked this! ❤️");
+  alert("You liked this! ");
 
   // toggle class
   button.classList.toggle("liked");
